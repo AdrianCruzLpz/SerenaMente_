@@ -1,0 +1,280 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: hidden;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover {
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 36px;
+    color: #2DAAA4;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 4px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    width: 30%;
+    margin-bottom: 8px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #333;
+    background-color: #FFF;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+    border-color: #2DAAA4;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #2DAAA4;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(85% - 5px);
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+select:hover {
+    border-color: #2DAAA4;
+}
+
+select:focus {
+    outline: none;
+    border-color: #2DAAA4;
+}
+
+.question {
+    margin-bottom: 20px;
+    color: #2DAAA4;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: calc(85% - 5px);
+    text-align: justify;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #333;
+}
+
+.options label {
+    flex-basis: calc(80% - 5px);
+    padding: 10px 20px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.options label:hover {
+    background-color: #E0E0E0;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-next_prev {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #2DAAA4;
+    font-family: "Montserrat";
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-next_prev:hover {
+    background-color: #0056B3;
+}
+
+p, .recomendacion {
+    width: calc(85% - 5px);
+    text-align: justify;
+    margin: 0 auto 32px;
+    font-weight: bold;
+}
+
+.anxiety-form,
+#depression-form {
+    margin-top: 56px;
+}
+
+.table-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 48px auto;
+}
+
+.table-form th,
+.table-form td {
+    border: 1px solid #DDD;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+.table-form th {
+    background-color: #f2f2f2;
+}
+
+.table-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.mensajeAdvertencia{
+    color: #AA2D33;
+    margin: 0 auto 72px;
+}
+
+.acercaDe{
+    font-size: 18px;
+    /*color: #37A389;*/
+    color: #278580;
+    /*color: #DE9016;*/
+}
+
+/* Estilos para los termometros */
+.resultadoEvPrev{
+    font-size: 18px;
+    color: #737373;
+    margin-bottom: 8px;
+}
+
+.puntuaciones{ 
+    color: #2DAAA4;
+}
+
+.mensajesPuntuacion{
+    font-style: italic;
+    color: #464343;
+    margin-bottom: 16px;
+}
+
+.mensajesCriterio{
+    font-size: 16px;
+    color: #37A389;
+}
+
+#termometroBAI,
+#termometroBDI, 
+#termometroPSS,
+#termometroMINI,
+#termometroWBI,
+#termometroICSP {
+    width: 50px;
+    height: 200px;
+    background-color: #E0E0E0;
+    border: 1px none #000;
+    border-radius: 22px;
+    position: relative;
+    margin: 0 auto 80px;
+    overflow: hidden;
+}
+
+#termometroBAI .nivel,
+#termometroBDI .nivel, 
+#termometroPSS .nivel,
+#termometroMINI .nivel,
+#termometroWBI .nivel,
+#termometroICSP .nivel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    transition: height 2s ease-in-out;
+}
+
+#termometroBDI .nivel.amarillo, 
+#termometroPSS .nivel.amarillo,
+#termometroMINI .nivel.amarillo {
+    background-color: yellow;
+}
+
+#termometroBAI .nivel.naranja,
+#termometroBDI .nivel.naranja, 
+#termometroPSS .nivel.naranja,
+#termometroMINI .nivel.naranja,
+#termometroWBI .nivel.naranja,
+#termometroICSP .nivel.naranja {
+    background-color: orange;
+}
+
+#termometroBAI .nivel.rojo,
+#termometroBDI .nivel.rojo, 
+#termometroPSS .nivel.rojo,
+#termometroMINI .nivel.rojo,
+#termometroICSP .nivel.rojo {
+    background-color: red;
+}
+
+#termometroBAI .nivel.negro,
+#termometroBDI .nivel.negro, 
+#termometroPSS .nivel.negro,
+#termometroMINI .nivel.negro,
+#termometroWBI .nivel.negro {
+    background-color: black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.logoPlayStore, .qrApp {
+    text-align: center;
+}
+
+.logoPlayStore img {
+    height: 48px;
+}
+
+
+.qrApp img {
+    height: 195px;
+}

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SerenaMente es una aplicación móvil diseñada por profesionales en salud mental para mejorar el bienestar emocional con herramientas respaldadas por la ciencia.">
+    <meta name="keywords" content="Salud mental, Bienestar emocional, Aplicación móvil, Psicología, Ciencias Sociales">
+    <meta name="author" content="Cruz Lopez Adrian, Estrada Borja Frida Fernanda, Garcia Mejia Luis Alberto - ESCOM IPN">
+    <title>¿Quénes Somos?</title>
+    <link rel="icon" type="image/x-icon" href="./img/LogoSerenaMente.png">
+
+    <!--Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Iconos de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Estilos personales-->
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-slider.css">
+    <link rel="stylesheet" href="./css/style-quienesSomos.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="rectanguloAzul">
+            <!-- <img src="./img/LogoSerenaMente.png" class="logoSerenaMente-nav"> -->
+        </div>
+
+        <div class="contenedor-header">
+
+            <div class="contenedor-izquierda-logo">
+                <figure>
+                    <img src="./img/LogoSerenaMente.png" class="logoSerenaMente" alt="LogoSerenaMente">
+                </figure>
+            </div>
+
+            <div class="contenedor-derecha">
+                <div class="contenedor-derecha-fila-redes">
+                    <div class="contenedor-derecha-columna">
+                        <ul>
+                            <li><img src="./img/envelope-regular.svg" class="redeSociales" alt="iconoCorreo"></li>
+                            <li><a
+                                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contenedor-derecha-columna">
+                        <p>SÍGUENOS</p>
+                        <ul>
+                            <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img
+                                        src="./img/facebook.svg" class="redeSociales" alt="Facebook_Serene" /></a></li>
+                            <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA=="
+                                    target="_blank"><img src="./img/instagram.svg" class="redeSociales"
+                                        alt="Instagram_Serene" /></a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="contenedor-derecha-columna"><a href="#">INICIAR SESIÓN / REGISTRO</a></div>-->
+                </div>
+                <div class="contenedor-derecha-fila">
+                    <div class="contenedor-derecha-columna">
+                        <nav class="menu" id="menu">
+                            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                            <ul class="menu-lista">
+                                <li><a href="./index.html">INICIO</a></li>
+                                <li><a href="./quienesSomos.html">¿QUIÉNES SOMOS?</a></li>
+                                <li><a href="./ventajas.html">VENTAJAS</a></li>
+                                <li><a href="./contenidos.html">CONTENIDOS</a></li>
+                                <li><a href="./preguntasFrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+                                <li><a href="./login.html">INICIAR SESIÓN</a></li>
+                                <!--<li><a href="./evaluacionPrevia.html">EVALUACIÓN PREVIA</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </header>
+
+    <main style="margin-top: 40px;">
+        <div class="rectanguloAmarillo">
+            <h1>¿QUIÉNES SOMOS?</h1>
+        </div>
+
+        <article>
+            <figure class="contenedorLetrasLogo">
+                <img src="./img/letrasLogo.png" alt="SerenaMente" class="letrasLogo">
+            </figure>
+            <section>
+                <p>Somos un grupo de investigadores dentro de la UNAM FES Iztacala y respaldados por el laboratorio en
+                    investigación LAPSIIT, CONACYHT. Nuestra misión en SerenaMente es crear soluciones innovadoras que
+                    promuevan el bienestar emocional. Nos esforzamos por proporcionar herramientas accesibles y fáciles
+                    de usar que ayudan a las personas a llevar una vida más plena. Como grupo de investigación
+                    trabajamos en estrecha colaboración con psicólogos, profesionales en tecnología, para desarrollar
+                    soluciones basadas en la evidencia científica. En SerenaMente nos comprometemos a salvaguardar la
+                    privacidad de nuestros usuarios y proporcionar información clara sobre nuestros sistemas y procesos.
+                </p>
+            </section>
+        </article>
+
+        <section>
+            <h1>EQUIPO SERENAMENTE</h1>
+            <div class="contenedor-grid">
+                <div class="celda"><img src="./fotos equipo/lorena.png" alt="Dra. Lorena Alejandra Flores Plata">
+                    <div class="contenedor-nombre">
+                        <h2>Dra. Lorena Alejandra Flores Plata</h2>
+                    </div>
+                    <button onclick="window.modal1.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal1">
+                        <h2>Dra. Lorena Alejandra Flores Plata</h2>
+                        <p style="text-align: justify;">Doctora en Psicología y Salud por la Universidad Nacional
+                            Autónoma de México. Profesora de carrera asociada C de tiempo completo en la Facultad de
+                            Estudios Superiores Iztacala, del programa Subprograma de Incorporación de Jóvenes
+                            Académicos de Carrera. Docente en el SUAyED desde hace 11 años en módulos metodológicos,
+                            clínicos y de la salud. <br><br>
+                            Actualmente forma parte del Laboratorio de Psicología e Innovación Tecnológico (LABPSIIT) y
+                            es responsable del proyecto PAPIIT: Aceptación y utilidad clínica de una intervención de
+                            telepsicología autoaplicada para la promoción del bienestar como elemento de prevención en
+                            salud mental. <br><br>
+                            En sus líneas de trabajo están la incorporación de tecnologías a la salud mental,
+                            convivencia escolar, las emociones y el bienestar. Es coautora de libros en UNAM, SEP y
+                            Santillana, artículos científicos y de difusión en convivencia, educación a distancia y
+                            tratamientos psicológicos; ponente en diversos eventos, congresos nacionales e
+                            internacionales. Forma parte del Sistema Nacional de Investigadores de México.
+                        </p>
+                        <button onclick="window.modal1.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/anabel.png" alt="Dra. Anabel de la Rosa Gómez">
+                    <div class="contenedor-nombre">
+                        <h2>Dra. Anabel de la Rosa Gómez</h2>
+                    </div>
+                    <button onclick="window.modal2.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal2">
+                        <h2>Dra. Anabel de la Rosa Gómez</h2>
+                        <p style="text-align: justify;">Doctora en Psicología por la Universidad Nacional Autónoma de
+                            México. Profesora titular B de tiempo completo adscrita a la licenciatura en Psicología del
+                            Sistema de Universidad Abierta y Educación a Distancia (SUAyED). Coordinadora de Educación a
+                            Distancia de la Facultad de Estudios Superiores Iztacala, UNAM. <br><br>
+                            Responsable académica del Laboratorio de Psicología e Innovación Tecnológica- LABPSIIT- y
+                            del Centro de Apoyo Psicológico y Educativo a Distancia (CAPED). Miembro del Sistema
+                            Nacional de Investigadores, Nivel I. Responsable técnica del proyecto CONACyT PRONACES SALUD
+                            MENTAL, 1401. Sus líneas de investigación: telepsicología, evaluación de intervenciones
+                            psicológicas digitales para la salud mental, vulnerabilidad al trauma.
+                        </p>
+                        <button onclick="window.modal2.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/jose.png" alt="Dr. José Alfredo Jiménez Benítez">
+                    <div class="contenedor-nombre">
+                        <h2>Dr. José Alfredo Jiménez Benítez</h2>
+                    </div>
+                    <button onclick="window.modal3.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal3">
+                        <h2>Dr. José Alfredo Jiménez Benítez</h2>
+                        <p style="text-align: justify;">Ingeniero en Electrónica con especialidad en Sistemas Digitales
+                            y Computadoras (UAM-Azcapotzalco) <br><br>
+                            Maestro en Tecnología Avanzada con especialidad en Tiempo Real y Control (IPN)
+                            Doctor en Tecnología Avanzada con especialidad en Sistemas (IPN) <br><br>
+                            Diplomado en Formación Docente en el 2008 (IPN) <br><br>
+                            Diplomado en Formación Docente basado en Competencias en 2011 (IPN) <br><br>
+                            Diplomado en Inteligencia Emocional en 2017 (IPN) <br><br>
+                            Licenciado en Psicología (UNAM) <br><br>
+                            Diplomado en educación híbrida en 2022 (IPN) <br><br>
+                            Diplomado en recursos didácticos digitales en 2023 (IPN) </p>
+                        <button onclick="window.modal3.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/javier.png" alt="Mtro. Javier Darío Ríos Castillo">
+                    <div class="contenedor-nombre">
+                        <h2>Mtro. Javier Darío Ríos Castillo</h2>
+                    </div>
+                    <button onclick="window.modal4.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal4">
+                        <h2>Mtro. Javier Darío Ríos Castillo</h2>
+                        <p style="text-align: justify;">Candidato a Doctor en Ciencias Médicas por la Universidad
+                            Nacional Autónoma de México en la Facultad de Medicina de la misma institución. Su
+                            investigación se enfoca en la prevención del consumo nocivo de sustancias y promoción de la
+                            salud mental en varones. <br><br>
+                            Profesor de Asignatura "A" de la Licenciatura en Psicología del Sistema de Universidad
+                            Abierta y Educación a Distancia de la UNAM, miembros de los claustros de Psicología Clínica
+                            y Psicología en el Campo de Salud de la misma entidad académica. <br><br>
+                            Maestro en Psicología de las Adicciones con formación primaria en Psicología Clínica. Tiene
+                            experiencia en diferentes escenarios dirigidos al cuidado de la salud mental: desde atención
+                            telefónica en crisis, pasando por el trabajo en comunidades con adolescentes en situación de
+                            riesgo, en hospitales con pacientes de enfermedades crónicas y sus familiares, así como en
+                            centros de atención de prevención de las adicciones de la Ciudad de México y el Estado de
+                            México. <br><br>
+                            Psicoterapeuta en práctica privada para el tratamiento ambulatorio de personas con
+                            trastornos adictivos con un enfoque de género centrado en la salud mental y el efecto de los
+                            mandatos masculinos en esta. Consultor externo para empresas en el campo de la comunicación
+                            y capacitación en temas de salud mental.
+                        </p>
+                        <button onclick="window.modal4.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/dulce.png" alt="Dra. Dulce María Díaz Sosa">
+                    <div class="contenedor-nombre">
+                        <h2>Dra. Dulce María Díaz Sosa</h2>
+                    </div>
+                    <button onclick="window.modal5.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal5">
+                        <h2>Dra. Dulce María Díaz Sosa</h2>
+                        <p style="text-align: justify;">Doctora en Psicología y Salud por la Facultad de Psicología,
+                            UNAM. Colaboración en diversos proyectos de investigación nacional e internacionales. Las
+                            principales líneas de investigación son: factores psicosociales de cuidadores primarios de
+                            personas con Traumatismo Craneoencefálico, prevención y atención del VIH en mujeres y
+                            población clave, atención de la salud mental en profesionales de la salud frente al
+                            COVID-19. Docente desde hace siete años en diferentes universidades: Alliant International
+                            University, Universidad de Londres y Universidad Autónoma Metropolitana. Co-autora de 15
+                            artículos de investigación y autora de dos artículos y un capítulo de libro; ponente en
+                            diversos congresos nacionales e internacionales; invitada por la Secretaría de Salud,
+                            CENSIDA, para el desarrollo de contenido del módulo de consejería de la guía nacional de
+                            atención a la otorgación de profilaxis pre-exposición. Actualmente posdoctorante en la
+                            Facultad de Estudios Superiores Iztacala, UNAM, con un proyecto sobre una intervención
+                            enfocada en el trauma en mujeres víctimas de abuso sexual.
+                        </p>
+                        <button onclick="window.modal5.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/liliana.png" alt="Mtra. Liliana Moreyra Jiménez">
+                    <div class="contenedor-nombre">
+                        <h2>Mtra. Liliana Moreyra Jiménez</h2>
+                    </div>
+                    <button onclick="window.modal6.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal6">
+                        <h2>Mtra. Liliana Moreyra Jiménez</h2>
+                        <p style="text-align: justify;">Licenciada en psicología por la Facultad de Psicología de la
+                            UNAM. Maestría en Ciencias de la Educación con especialidad en docencia por ETAC - UDEMEX.
+                            Profesora de la Licenciatura en psicología SUAyED en la Facultad de Estudios Superiores
+                            Iztacala - UNAM en las áreas de psicología de la salud y psicología clínica. Experiencia en
+                            la aplicación de las tecnologías de la información en el campo de psicología clínica y
+                            educativa, en el desarrollo de ambientes virtuales de aprendizaje, realidad virtual y en
+                            enseñanza en educación a distancia. En el área de psicología clínica se ha enfocado en temas
+                            como: evaluación psicológica, trastornos de ansiedad, tratamiento cognitivo conductual,
+                            intervención breve basado en enfoque en psicología positiva, resiliencia y en el campo de la
+                            psicología de la salud en temas relacionados con promoción de la salud y prevención de la
+                            enfermedad.
+                        </p>
+                        <button onclick="window.modal6.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/zuleyca.png" alt="Lic. Zuleyca Pérez Martínez">
+                    <div class="contenedor-nombre">
+                        <h2>Lic. Zuleyca Pérez Martínez</h2>
+                    </div>
+                    <button onclick="window.modal7.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal7">
+                        <h2>Lic. Zuleyca Pérez Martínez</h2>
+                        <p style="text-align: justify;">Licenciada en psicología por la Universidad Nacional Autónoma de
+                            México (UNAM), FES Iztacala. Actualmente es colaboradora en los proyectos “Idoneidad,
+                            utilidad clínica y aceptabilidad de una intervención transdiagnóstica vía internet para el
+                            tratamiento de trastornos emocionales y derivados del estrés y trauma”, “Aceptación y
+                            utilidad clínica de una intervención de telepsicología autoaplicada para la promoción del
+                            bienestar como elemento de prevención en salud mental” y “Sistema modular autogestivo en
+                            línea para la promoción del bienestar; una intervención desde la psicología positiva”. Así
+                            mismo, ha desarrollado y planeado un proyecto de “Bienestar psicológico para personas con
+                            hipertensión” y “taller para padres: crianza con amor en tiempos de contingencia”. <br><br>
+                            Licenciada en Idiomas Europeos, por parte del Instituto de Estudios Superiores Dante
+                            Alighieri (IESDA), Tlaxcala. Se ha desempeñado como docente, traductora, promotora cultural
+                            y en el rescate y preservación de la lengua Otomí. <br><br>
+                            Ha sido traductora del catálogo “Xochitiotzin, Cien años. Muralista forjado en Puebla” y ha
+                            escrito el cuento “¿sueño utópico?” ganador del primer lugar del Premio 2012 de Divulgación
+                            Escrita de la Ciencia y la Técnica para Jóvenes.
+                        </p>
+                        <button onclick="window.modal7.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/anel.png" alt="Blanca Anel Perea Aguirre">
+                    <div class="contenedor-nombre">
+                        <h2>Lic. Blanca Anel Perea Aguirre</h2>
+                    </div>
+                    <button onclick="window.modal8.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal8">
+                        <h2>Lic. Blanca Anel Perea Aguirre</h2>
+                        <p style="text-align: justify;">Licenciada en psicología por la FES Iztacala UNAM, diplomada
+                            como intructora en mindfulness por el Instituto Mexicano de Mindfulness, colaboradora en el
+                            desarrollo de contenidos digitales de atención y prevención como SerenaMente, Intervención
+                            en línea cognitivo conductual centrada en el trauma en mujeres adultas, asesora terapeuta en
+                            e-moción, CAPED y Proyecto Xtab para la prevención de suicidio en adolescentes, ha diseñado
+                            y aplicado diversos talleres para organizaciones y escuelas. Ha participado como
+                            colaboradora en escritos de divulgación científica.
+                        </p>
+                        <button onclick="window.modal8.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/steph.png" alt="Blanca Anel Perea Aguirre">
+                    <div class="contenedor-nombre">
+                        <h2>Psic. Stephanie Cortes Abad</h2>
+                    </div>
+                    <button onclick="window.modal9.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal9">
+                        <h2>Psic. Stephanie Cortes Abad</h2>
+                        <p style="text-align: justify;">
+                            En el ámbito de la salud, realizó una participación aplicando un taller sobre Mejoramiento
+                            de la Calidad de Vida con Hábitos Saludables como factor preventivo de la depresión en
+                            adultos mayores. Su interés por abordar temas relevantes en el área de prevención se refleja
+                            en su incursión en el campo organizacional, donde realizó una propuesta de evaluación para
+                            la Prevención de Riesgos Asociados al Estrés en el Área de Producción de la empresa
+                            Goliardxs Estudios. <br><br>
+                            Con respecto al campo clínico, incursionó desarrollado una propuesta de instrumento para la
+                            evaluación del constructo de Deseo autodestructivo, demostrando un compromiso profundo con
+                            la identificación y prevención de situaciones críticas, además mostró un interés en temas
+                            del campo clínico, desde la perspectiva preventiva al realizar un taller psicoeducativo
+                            tratando el tema de prevención de abuso hacia menores de edad, dirigido a padres de familia
+                            o tutores. Ejecutando las intervenciones desde un enfoque integral que evidencia su
+                            capacidad para abordar problemáticas complejas con empatía y profesionalismo. <br><br>
+                            En el marco de su proyecto de titulación, ha demostrado una capacidad para fusionar teoría y
+                            práctica, centrando su investigación en un área de vital importancia. Su enfoque se ha
+                            dirigido hacia la prevención, empleando el modelo transdiagnóstico y estrategias de
+                            bienestar emocional en jóvenes universitarios que pasaron por el confinamiento de la
+                            pandemia del año 2019, analizando el impacto que tuvo en este grupo específico, consolidando
+                            así su perfil como una profesional especializada y comprometida con la vanguardia del
+                            conocimiento en psicología. <br><br>
+                            Como profesional emergente, su recorrido académico refleja el dominio de los fundamentos
+                            teóricos, así como la habilidad para aplicar estos conocimientos en diversos contextos. Su
+                            capacidad para abordar desafíos con creatividad y ética la distingue como una profesional
+                            íntegra en el campo de la psicología, demostrando un compromiso apasionado con la mejora de
+                            la calidad de vida y la prevención de problemáticas cruciales en la sociedad.
+                        </p>
+                        <button onclick="window.modal9.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/gris.png" alt="Griselda Suzán Montoya">
+                    <div class="contenedor-nombre">
+                        <h2>Psic. Griselda Suzán Montoya</h2>
+                    </div>
+                    <button onclick="window.modal10.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal10">
+                        <h2>Psic. Griselda Suzán Montoya</h2>
+                        <p style="text-align: justify;">
+                            Ha realizado sus estudios en Psicología en la Facultad de Estudios Superiores Iztacala de la
+                            UNAM. Durante su preparación profesional ha mostrado un alto compromiso con la excelencia y
+                            la profesionalización en diferentes campos de profundización, especialmente para comprender
+                            la complejidad en las interrelaciones e impacto de los factores biopsicosociales en la salud
+                            y bienestar de las personas. <br><br>
+                            Considera que el abordaje de la promoción de la salud mental debe considerar que es un
+                            proceso con un gran componente social, por lo que como estudiante participó en diferentes
+                            encuentros estudiantiles como el Primer Encuentro Estudiantil de Análisis de Experimentos
+                            Sociales con la mesa de análisis de Estilos de liderazgos de Kurt Lewin, quien sentó las
+                            bases de la intervención acción. <br><br>
+                            Realizó diferentes prácticas, entre las que destacan las exploratorias para comprender la
+                            relación entre los estados emocionales y la salud digestiva en un estudio de caso, los
+                            factores motivacionales de adherencia al tratamiento en personas adultas diagnosticadas con
+                            Diabetes Mellitus tipo 2, de carácter aplicado impartiendo estrategias de intervención para
+                            la prevención de la depresión en adultos mayores mediante un taller para el mejoramiento de
+                            la calidad de vida, para la gestión del estrés en estudiantes de Psicología del SUAyED, uso
+                            de técnicas cognitivo conductuales para la prevención de la procrastinación en un caso
+                            único. <br><br>
+                            Para su formación destacan entrenamientos para el manejo de estados de ansiedad, duelo y
+                            estrés, gestión emocional con mindfulness, además del entrenamiento en intervención
+                            transdiagnóstica para trastornos emocionales y derivados del estrés y trauma del proyecto
+                            e-moción. Cuenta con preparación en terapia nutricional y suplementación y es coautora del
+                            artículo La (Institución de la) educación pública en el imaginario social de una
+                            telesecundaria del ámbito rural en Michoacán. <br><br>
+                            Participó en la preparación preventiva de Centinelas impartido por la Facultad de Medicina
+                            de la UNAM. Desde hace más de 15 años ha liderado diferentes proyectos orientados al
+                            bienestar de los usuarios con una perspectiva integral. Su proyecto de titulación muestra su
+                            gran interés por este objetivo, comparando la eficacia y las preferencias de la aplicación
+                            de una estrategia transdiagnóstica para el bienestar emocional de jóvenes universitarios. <br><br>
+                            Desde 2023 es apasionada colaboradora en el proyecto SerenaMente ya que considera que es
+                            fundamental desarrollar estrategias para contribuir al desarrollo y bienestar emocional de
+                            las personas y busca siempre aplicar sus conocimientos en entornos prácticos que promuevan
+                            la salud mental y se traducen en impactos positivos y significativos en la calidad de vida.
+                        </p>
+                        <button onclick="window.modal10.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/alberto.png" alt="Luis Alberto García Mejía">
+                    <div class="contenedor-nombre">
+                        <h2>Pas. Ing. Luis Alberto García Mejía</h2>
+                    </div>
+                    <button onclick="window.modal11.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal11">
+                        <h2>Pas. Ing. Luis Alberto García Mejía</h2>
+                        <p style="text-align: justify;">
+                            Estudiante de Ingeniería en Sistemas Computacionales en la Escuela Superior de Cómputo
+                            (ESCOM), actualmente enfocado en su trabajo terminal para completar los requisitos
+                            académicos y obtener la titulación.
+                            A lo largo de su carrera, he adquirido habilidades en el diseño y desarrollo de sistemas,
+                            así como en la implementación de soluciones informáticas. Su enfoque se basa en aplicar
+                            conocimientos prácticos en el área.
+                            Su participación en proyectos anteriores y su trabajo terminal son parte de su compromiso
+                            con su formación académica. Fuera del ámbito, dedica su tiempo libre a actividades más
+                            relajadas. Aprecia la estabilidad y busca equilibrar su vida entre los estudios y momentos
+                            de descanso.
+                        </p>
+                        <button onclick="window.modal11.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/frida.png" alt="Luis Alberto García Mejía">
+                    <div class="contenedor-nombre">
+                        <h2>Pas. Ing. Frida Fernanda Estrada Borja</h2>
+                    </div>
+                    <button onclick="window.modal12.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal12">
+                        <h2>Pas. Ing. Frida Fernanda Estrada Borja</h2>
+                        <p style="text-align: justify;">
+                            En el último semestre de la carrera de Ingeniería en Sistemas Computacionales en ESCOM,
+                            Frida ha demostrado un compromiso excepcional y una habilidad innata para sortear desafíos.
+                            Su logro más significativo hasta ahora es haber llegado a la universidad y superar con éxito
+                            la primera fase de su trabajo terminal, reflejando su dedicación y habilidades académicas. <br><br>
+                            Fuera de las aulas, Frida encuentra su mayor alegría en la vibrante experiencia de asistir a
+                            conciertos y sumergirse en las películas. Este equilibrio entre lo académico y lo cultural
+                            refleja su diversidad de intereses y su aprecio por las diferentes formas de expresión
+                            artística.
+                            Aunque aún está definiendo su filosofía de vida, Frida se guía por una creencia en el poder
+                            de la perseverancia y la importancia de encontrar la felicidad en cada paso del camino.
+                            Inspirada constantemente por sus padres, valora la importancia de construir una base sólida
+                            de principios éticos y dedicación al trabajo. <br><br>
+                            Su pasión por el diseño de sistemas de software es evidente en cada proyecto en el que se
+                            involucra. Desde la meticulosa documentación hasta la hábil toma de requerimientos, Frida
+                            encuentra satisfacción en cada etapa del proceso. Su habilidad innata para entender y crear
+                            sistemas eficientes es un testimonio de su compromiso con la excelencia en su campo. <br><br>
+                            Al proyectarse en el futuro, Frida se visualiza no sólo alcanzando el éxito profesional con
+                            un trabajo estable en el diseño de sistemas de software, sino también construyendo una vida
+                            llena de felicidad y equilibrio con una familia amorosa. Con una combinación única de
+                            habilidades técnicas y una perspectiva optimista, Frida está
+                            preparada para enfrentar con confianza los desafíos que el futuro le depare.
+                        </p>
+                        <button onclick="window.modal12.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda displaynone">
+                </div>
+                <div class="celda"><img src="./fotos equipo/adrian.png" alt="Adrián Cruz López">
+                    <div class="contenedor-nombre">
+                        <h2>Pas. Ing. Adrián Cruz López</h2>
+                    </div>
+                    <button onclick="window.modal13.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal13">
+                        <h2>Pas. Ing. Adrián Cruz López</h2>
+                        <p style="text-align: justify;">
+                            Técnico en Computación en el Centro de Estudios Científicos y Tecnológicos No. 3 "Estanislao
+                            Ramírez Ruiz". Actualmente, estudiante del noveno semestre de la carrera de Ingeniería en
+                            Sistemas Computacionales en la Escuela Superior de Cómputo, perteneciente al Instituto
+                            Politécnico Nacional. Este trayecto académico le ha brindado la oportunidad de adquirir y
+                            profundizar conocimientos en áreas como redes computacionales, bases de datos y desarrollo
+                            de software. <br><br>
+                            Además, tiene la oportunidad de ser estudiante del Equipo 6 del programa ONE (Oracle Next
+                            Education). Esta experiencia enriquecedora le proporcionará oportunidades únicas para
+                            ampliar sus conocimientos y habilidades en el área de programación, así como de desarrollo
+                            personal. <br><br>
+                            Una vez que complete su carrera universitaria, su objetivo es ingresar al mundo laboral con
+                            un enfoque particular en el desarrollo Front-End o en el ámbito de redes y bases de datos.
+                            Aspira a contribuir con su experiencia y habilidades en proyectos que le permitan seguir
+                            creciendo profesionalmente en estas áreas específicas.
+                            Su participación en este proyecto consiste en contribuir al desarrollo y diseño de la
+                            aplicación y página web por lo que esta experiencia le permite aplicar sus habilidades en
+                            programación y diseño.
+                        </p>
+                        <button onclick="window.modal13.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+                <div class="celda"><img src="./fotos equipo/usuario.png" alt="Ernesto Moreno Soto">
+                    <div class="contenedor-nombre">
+                        <h2>Ernesto Moreno Soto </h2>
+                    </div>
+                    <button onclick="window.modal14.showModal();" class="ov-btn-slide-top">Ver semblanza</button>
+                    <dialog class="conteiner-modal" id="modal14">
+                        <h2>Ernesto Moreno Soto </h2>
+                        <p style="text-align: justify;">
+                        </p>
+                        <button onclick="window.modal14.close();" class="ov-btn-slide-top">Cerrar</button>
+                    </dialog>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="section-flex-container">
+                <div>
+                    <img src="./img/letrasLogo.png" class="letras-logo" alt="letrasLogoSerenaMente">
+                </div>
+                <div class="respaldo-div">
+                    <p>Cuenta con el respaldo y
+                        colaboración de investigadoras e investigadores de las siguientes instituciones.
+                    </p>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="https://labpsiit.iztacala.unam.mx/" target="_blank"><img
+                                    src="./img/cropped-logos2_-copia.png" width="365px" height="108px"
+                                    alt="UNAM - SUAYED - LABPSIIT" id="logoSuayed"></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="https://www.ipn.mx/" target="_blank"><img src="./img/LOGO POLI PANTONE 222 C.png"
+                                    width="73px" height="108px" alt="Instituto Politécnico Nacional" id="logoIPN"></a></li>
+                        <li><a href="https://www.escom.ipn.mx/" target="_blank"><img src="./img/escudoESCOM.png"
+                                    width="142px" height="108px" alt="Escuela Superior de Cómputo" id="logoESCOM"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedorContacto">
+            <div class="comentario-cel">
+                <h3>NOS GUSTARÍA AYUDARTE</h3>
+                <p>En SerenaMente, estamos entusiasmados por ofrecerte nuestro apoyo. Nos comprometemos a potenciar tu
+                    bienestar a través de una variedad de actividades y reflexiones diseñadas para tu beneficio. Te
+                    extendemos una cordial invitación a hacer clic en el enlace de registro para iniciar tu proceso
+                    personal o bien escribirnos para resolver cualquier duda. Este programa abarca seis semanas
+                    dedicadas a fortalecer tu bienestar integral.
+
+                    <br><br>Estamos emocionados por acompañarte en esta travesía hacia una vida más serena y plena.
+                    <br><br>¡Esperamos ser parte de tu camino hacia el bienestar!
+                </p>
+            </div>
+            <div class="formulario">
+                <h3>CONTACTO</h3>
+                <form action="" method="post" id="formulario-contacto">
+                    <ul>
+                        <li><label for="name">NOMBRE</label><input type="text" id="name" name="user_name"
+                                class="input" /></li>
+                        <li><label for="email">CORREO ELECTRÓNICO</label><input type="text" id="mail" name="user_mail"
+                                class="input" /></li>
+                        <li><label for="message">MENSAJE</label><textarea name="user_message" id="message" cols="30"
+                                rows="10" class="input"></textarea></li>
+                    </ul>
+                    <input type="submit" value="ENVIAR" class="boton">
+                </form>
+            </div>
+            <div class="comentario">
+                <h3>NOS GUSTARÍA AYUDARTE</h3>
+                <p>En SerenaMente, estamos entusiasmados por ofrecerte nuestro apoyo. Nos comprometemos a potenciar tu
+                    bienestar a través de una variedad de actividades y reflexiones diseñadas para tu beneficio. Te
+                    extendemos una cordial invitación a hacer clic en el enlace de registro para iniciar tu proceso
+                    personal o bien escribirnos para resolver cualquier duda. Este programa abarca seis semanas
+                    dedicadas a fortalecer tu bienestar integral.
+
+                    <br><br>Estamos emocionados por acompañarte en esta travesía hacia una vida más serena y plena.
+                    <br><br>¡Esperamos ser parte de tu camino hacia el bienestar!
+                </p>
+            </div>
+        </div>
+
+
+
+        <section id="gallery" class="gallery">
+            <nav class="gallery-navigation">
+                <button class="nav-button prev-button"><span>&#129092;</span></button>
+                <button class="nav-button next-button"><span>&#129094;</span></button>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedorFooter">
+            <div><div><img src="./img/LogoSerenaMente.png" width="206px" height="190px" class="logoFotter" alt="LogoSerenaMente"></div></div>
+            <div><a
+                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+            </div>
+            <div>
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img src="./img/facebook.svg"
+                                class="redeSociales" alt="Facebook_Serene" /></a></li>
+                    <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img
+                                src="./img/instagram.svg" class="redeSociales" alt="Instagram_Serene" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div><a href="./avisoPrivacidad.html">AVISO DE PRIVACIDAD</a></div>
+        </div>
+
+        <div class="rectanguloAzul">
+            <p>Investigación realizada gracias al Programa UNAM-PAPIIT TA300223 / &copy Copyright 2023 SERENAMENTE /
+                Proyecto
+                PAPIIT</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/script-slider.js"></script>
+
+</body>
+
+</html>

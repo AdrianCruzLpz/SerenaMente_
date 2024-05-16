@@ -1,0 +1,164 @@
+.rectanguloAmarillo {
+    background-color: #FFC55C;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectanguloAmarillo h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFF;
+    text-align: center;
+}
+
+.letrasLogo{
+    width: 197px;
+    height: 50px;
+    margin: 20px 100px;
+}
+
+.instituciones{
+    margin-top: 96px;
+}
+
+article p{
+    text-align: justify;
+    margin: 20px 100px;
+    padding: 8px;
+    font-size: 25px;
+    color: #666;
+}
+
+article h3{
+    text-align: justify;
+    margin: 20px 100px;
+    padding-top: 32px;
+    color: #2DAAA4;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+section h2{
+    font-weight: bold;
+    font-size: 45px;
+    color: #2DAAA4;
+    margin: 24px 32px;
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 60%;
+    margin: 40px auto;
+}
+
+.celda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-grid img{
+    max-width: 50%;
+}
+
+button{
+    font-weight: bold;
+    font-size: 25px;
+    color: #2DAAA4;
+    border: none;
+    background-color: #FFF;
+}
+
+
+.contenedorContacto{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.formulario ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.formulario{
+    flex: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    color: #2DAAA4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formulario li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.formulario label{
+    min-width: 150px;
+    margin-right: 10px;
+}
+
+.input{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    min-width: 350px;
+}
+
+.formulario h3{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.boton{
+    max-width: 150px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2DAAA4;
+    border-radius: 11px;
+    border: 2px solid #2DAAA4;
+    background-color: #EFEFEF;
+}
+
+.comentario{
+    flex: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFC55C;
+    color: #FFF;
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px 60px;
+}
+
+.comentario h3{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto;
+}

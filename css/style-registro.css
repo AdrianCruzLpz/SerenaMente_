@@ -1,0 +1,51 @@
+html, body, figure, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Montserrat";
+}
+
+#form-registro {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dae2e2;
+    font-family: "arial";
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 550;
+    color: #2DAAA4;
+    background-color: white;
+
+}
+
+::placeholder{
+    opacity: 1;
+}
+
+#terminos{
+    text-align: center;
+}
+
+#terminos-condiciones {
+    margin-right: 5px;
+}
+
+#boton-registrarse{
+    width: 20%;
+    align-self: center;
+}
+

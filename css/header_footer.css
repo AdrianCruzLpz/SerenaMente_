@@ -1,0 +1,162 @@
+* {
+    font-family: Montserrat;
+}
+
+.rectanguloAzul {
+
+    background-color: #2DAAA4;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo {
+    color: #2DAAA4;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.section-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section-flex-container-div {
+    margin: 10px;
+}
+
+.section-flex-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.section-flex-container li {
+    margin-right: 10px;
+}
+
+.section-flex-container p {
+    font-size: 25px;
+    color: #666666;
+    text-align: justify;
+}
+
+
+
+/*INICIA FOOTER*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2DAAA4;
+}
+
+.flex-container-div {
+    margin: 20px;
+}
+
+.flex-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-container ul {
+    list-style: none;
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-container h3 {
+    text-align: center;
+}
+
+.flex-container li {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.flex-container img.redeSociales {
+    width: 25px;
+}
+
+/*TERMINA FOOTER*/
+
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.izquierda {
+    flex: 1;
+}
+
+.derecha {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+}
+
+.columna {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;    
+}
+
+.columna a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2DAAA4;
+}
+
+.columna nav{
+    border-top: 2px solid #2DAAA4;
+}
+
+.contenedor img.redeSociales {
+    width: 25px;
+}
+
+
+.derecha ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.derecha li {
+    margin-right: 10px; 
+    text-align: center;
+    padding-left: 20px;
+}
+
+.derecha h5{
+    color: #2DAAA4;
+}

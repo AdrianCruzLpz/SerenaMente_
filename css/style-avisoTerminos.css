@@ -1,0 +1,73 @@
+html, body, figure, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Montserrat";
+}
+
+main {
+    width: 85%;
+    margin: 32px auto;
+    text-align: justify;
+}
+
+figure{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+img{
+    height: 120px;
+}
+
+h1 {
+    color: #2DAAA4;
+    text-align: center;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.tituloConsentimiento{
+    color: #2DAAA4;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+a {
+    color: #2DAAA4;
+    font-weight: 500;
+}
+
+h3 {
+    color: #2DAAA4;
+    font-size: 16px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-next_prev {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #2DAAA4;
+    font-family: "Montserrat";
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-next_prev:hover {
+    background-color: #0056B3;
+}

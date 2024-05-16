@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SerenaMente es una aplicación móvil diseñada por profesionales en salud mental para mejorar el bienestar emocional con herramientas respaldadas por la ciencia.">
+    <meta name="keywords" content="Salud mental, Bienestar emocional, Aplicación móvil, Psicología, Ciencias Sociales">
+    <meta name="author" content="Cruz Lopez Adrian, Estrada Borja Frida Fernanda, Garcia Mejia Luis Alberto - ESCOM IPN">
+    <title>SerenaMente</title>
+
+    <!--Icono de la aplicacion-->
+    <link rel="icon" type="image/x-icon" href="./img/LogoSerenaMente.png">
+
+    <!--Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Iconos de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Estilos personales-->
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-slider.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="rectanguloAzul">
+            <!-- <img src="./img/LogoSerenaMente.png" class="logoSerenaMente-nav"> -->
+        </div>
+
+        <div class="contenedor-header">
+
+            <div class="contenedor-izquierda-logo">
+                <figure>
+                    <img src="./img/LogoSerenaMente.png" class="logoSerenaMente" alt="LogoSerenaMente">
+                </figure>
+            </div>
+
+            <div class="contenedor-derecha">
+                <div class="contenedor-derecha-fila-redes">
+                    <div class="contenedor-derecha-columna">
+                        <ul>
+                            <li><img src="./img/envelope-regular.svg" class="redeSociales" alt="iconoCorreo"></li>
+                            <li><a
+                                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contenedor-derecha-columna">
+                        <p>SÍGUENOS</p>
+                        <ul>
+                            <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img
+                                        src="./img/facebook.svg" class="redeSociales" alt="Facebook_Serene" /></a></li>
+                            <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA=="
+                                    target="_blank"><img src="./img/instagram.svg" class="redeSociales"
+                                        alt="Instagram_Serene" /></a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="contenedor-derecha-columna"><a href="#">INICIAR SESIÓN / REGISTRO</a></div>-->
+                </div>
+                <div class="contenedor-derecha-fila">
+                    <div class="contenedor-derecha-columna">
+                        <nav class="menu" id="menu">
+                            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                            <ul class="menu-lista">
+                                <li><a href="./index.html">INICIO</a></li>
+                                <li><a href="./quienesSomos.html">¿QUIÉNES SOMOS?</a></li>
+                                <li><a href="./ventajas.html">VENTAJAS</a></li>
+                                <li><a href="./contenidos.html">CONTENIDOS</a></li>
+                                <li><a href="./preguntasFrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+                                <li><a href="./login.html">INICIAR SESIÓN</a></li>
+                                <!--<li><a href="./evaluacionPrevia.html">EVALUACIÓN PREVIA</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-flex-container">
+            <div style="width: 90%;" class="bienvenida-cel">
+                <h1 class="titulo">Bienvenida/o a SerenaMente</h1>
+                <p>Una aplicación móvil diseñada por profesionales en salud mental para mejorar tu bienestar emocional
+                    con herramientas respaldadas por la ciencia.</p>
+            </div>
+            <div id="youtube-placeholder" style="width: 560px; height: 315px; position: relative; overflow: hidden; background-color: #f0f0f0; border-radius: 8px; display: flex; justify-content: center; align-items: center;">
+                <img src="https://img.youtube.com/vi/EmIdLiK-iOg/maxresdefault.jpg" alt="Video de SerenaMente" style="width: 100%; height: auto; cursor: pointer;" onclick="loadYouTubeVideo()">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; padding: 20px;">
+                    <i class="fab fa-youtube" style="color: #ff0000; font-size: 48px;"></i>
+                </div>
+            </div>
+
+            <div style="width: 30%;" class="bienvenida">
+                <h1 class="titulo">Bienvenida/o a SerenaMente</h1>
+                <p>Una aplicación móvil diseñada por profesionales en salud mental para mejorar tu bienestar emocional
+                    con
+                    herramientas respaldadas por la ciencia.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="gallery-container">
+                <figure class="gallery-item">
+                    <img src="./img/CNEIP_1.png" alt="XLIX Congreso Nacional de Psicología CNEIP">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="./img/CIP_2.png" alt="XXXIX Congreso Interamericano de Psicología (CIP 2023)">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="./img/PasoNorte_3.png"
+                        alt="Congreso Internacional de Ciencias Sociales 'Paso del Norte' 2023">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="./img/EncuentroNacional_4.png" alt="1er Encuentro Nacional de Telepsicología">
+                </figure>
+            </div>
+            <nav class="gallery-navigation">
+                <button class="nav-button prev-button"><i class="fa-solid fa-arrow-left fa-2xl"></i></button>
+                <button class="nav-button next-button"><i class="fa-solid fa-arrow-right fa-2xl"></i></button>
+            </nav>
+        </section>
+
+        <section>
+            <div class="section-flex-container">
+                <div>
+                    <img src="./img/letrasLogo.png" class="letras-logo" alt="letrasLogoSerenaMente">
+                </div>
+                <div class="respaldo-div">
+                    <p>Cuenta con el respaldo y
+                        colaboración de investigadoras e investigadores de las siguientes instituciones.
+                    </p>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="https://labpsiit.iztacala.unam.mx/" target="_blank"><img
+                                    src="./img/cropped-logos2_-copia.png" width="365px" height="108px"
+                                    alt="UNAM - SUAYED - LABPSIIT" id="logoSuayed"></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="https://www.ipn.mx/" target="_blank"><img src="./img/LOGO POLI PANTONE 222 C.png"
+                                    width="73px" height="108px" alt="Instituto Politécnico Nacional" id="logoIPN"></a>
+                        </li>
+                        <li><a href="https://www.escom.ipn.mx/" target="_blank"><img src="./img/escudoESCOM.png"
+                                    width="142px" height="108px" alt="Escuela Superior de Cómputo" id="logoESCOM"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedorFooter">
+            <div><img src="./img/LogoSerenaMente.png" width="206px" height="190px" class="logoFotter" alt="LogoSerenaMente"></div>
+            <div><a
+                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+            </div>
+            <div>
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img src="./img/facebook.svg"
+                                class="redeSociales" alt="Facebook_Serene" /></a></li>
+                    <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img
+                                src="./img/instagram.svg" class="redeSociales" alt="Instagram_Serene" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div><a href="./avisoPrivacidad.html">AVISO DE PRIVACIDAD</a></div>
+        </div>
+
+        <div class="rectanguloAzul">
+            <p>Investigación realizada gracias al Programa UNAM-PAPIIT TA300223 / &copyCopyright 2023 SERENAMENTE /
+                Proyecto
+                PAPIIT</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/script-slider.js"></script>
+
+</body>
+
+</html>

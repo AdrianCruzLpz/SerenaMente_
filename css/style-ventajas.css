@@ -1,0 +1,50 @@
+.contenedorAzul{
+    background-color: #2DAAA4;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    margin: 104px auto;
+}
+
+.contenedorTextoImagen :where(p){
+    font-size: 25px;
+    text-align: justify;
+    padding: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .contenedorAzul{
+        background-color: #2DAAA4;
+        flex-direction: column;
+        margin: 34px auto;
+    }
+
+    .contenedorImagen{
+        display: none;
+    }
+
+    .contenedorTextoImagen{
+        display: flex;
+    }
+
+    .contenedorImagenCel{
+        width: 100%;
+    }
+
+    .contenedorTextoImagen :where(p){
+        font-size: 15px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .contenedorImagenCel{
+        display: none;
+    }
+
+    .iconos{
+        display: none;
+    }
+}

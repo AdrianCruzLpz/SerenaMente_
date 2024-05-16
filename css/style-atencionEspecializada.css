@@ -1,0 +1,68 @@
+html, body, figure, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Montserrat";
+}
+
+main {
+    width: 85%;
+    margin: 32px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2DAAA4;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+.punto {
+    list-style-type: disc;
+    font-weight: bold;
+}
+
+.iconos {
+    color: #2DAAA4;
+    padding-right: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #2DAAA4;
+    font-weight: 500;
+}
+
+h3{
+    margin-top: 32px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-next_prev {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #2DAAA4;
+    font-family: "Montserrat";
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-next_prev:hover {
+    background-color: #0056B3;
+}

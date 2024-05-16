@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SerenaMente es una aplicación móvil diseñada por profesionales en salud mental para mejorar el bienestar emocional con herramientas respaldadas por la ciencia.">
+    <meta name="keywords" content="Salud mental, Bienestar emocional, Aplicación móvil, Psicología, Ciencias Sociales">
+    <meta name="author" content="Cruz Lopez Adrian, Estrada Borja Frida Fernanda, Garcia Mejia Luis Alberto - ESCOM IPN">
+    <title>Registro</title>
+
+    <!--Icono de la aplicacion-->
+    <link rel="icon" type="image/x-icon" href="./img/LogoSerenaMente.png">
+
+    <!--Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Iconos de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Estilos personales-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-quienesSomos.css">
+    <link rel="stylesheet" href="./css/style-registro2.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="rectanguloAzul">
+        </div>
+
+        <div class="contenedor-header">
+
+            <div class="contenedor-izquierda-logo">
+                <figure>
+                    <img src="./img/LogoSerenaMente.png" class="logoSerenaMente" alt="LogoSerenaMente">
+                </figure>
+            </div>
+
+            <div class="contenedor-derecha">
+                <div class="contenedor-derecha-fila-redes">
+                    <div class="contenedor-derecha-columna">
+                        <ul>
+                            <li><img src="./img/envelope-regular.svg" class="redeSociales" alt="iconoCorreo"></li>
+                            <li><a
+                                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contenedor-derecha-columna">
+                        <p>SÍGUENOS</p>
+                        <ul>
+                            <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img
+                                        src="./img/facebook.svg" class="redeSociales" alt="Facebook_Serene" /></a></li>
+                            <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA=="
+                                    target="_blank"><img src="./img/instagram.svg" class="redeSociales"
+                                        alt="Instagram_Serene" /></a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="contenedor-derecha-columna"><a href="#">INICIAR SESIÓN / REGISTRO</a></div>-->
+                </div>
+                <div class="contenedor-derecha-fila">
+                    <div class="contenedor-derecha-columna">
+                        <nav class="menu" id="menu">
+                            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                            <ul class="menu-lista">
+                                <li><a href="./index.html">INICIO</a></li>
+                                <li><a href="./quienesSomos.html">¿QUIÉNES SOMOS?</a></li>
+                                <li><a href="./ventajas.html">VENTAJAS</a></li>
+                                <li><a href="./contenidos.html">CONTENIDOS</a></li>
+                                <li><a href="./preguntasFrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+                                <li><a href="./login.html">INICIAR SESIÓN</a></li>
+                                <!--<li><a href="./evaluacionPrevia.html">EVALUACIÓN PREVIA</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="rectanguloAmarillo">
+            <h1>REGISTRO</h1>
+        </div>
+
+        <div class="principal">
+            <section class="container">
+                <form id="signupForm">
+
+                    <!--PREGUNTA 1-->
+                    <div class="question">
+                        <label for="name">Nombre(s)</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <!--PREGUNTA 2-->
+                    <div class="question">
+                        <label for="lastname">Apellido(s)</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+
+                    <!--PREGUNTA 3-->
+                    <div class="question">
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad" min="18">
+                    </div>
+
+                    <!--PREGUNTA 4-->
+                    <div class="question">
+                        <label for="estado_civil">Estado civil:</label>
+                        <select name="estado_civil">
+                            <option value="Soltero(a)">Soltero(a)</option>
+                            <option value="Union_libre">Unión libre</option>
+                            <option value="Casado(a)">Casado(a)</option>
+                            <option value="Divorciado(a)">Divorciado(a)</option>
+                            <option value="Separado(a)">Separado(a)</option>
+                            <option value="Viudo(a)">Viudo(a)</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <!--PREGUNTA 5-->
+                    <div class="question">
+                        <label for="sexo">Sexo:</label>
+                        <div class="options">
+                            <label><input type="radio" name="sexo" value="Mujer"> Mujer</label>
+                            <label><input type="radio" name="sexo" value="Hombre"> Hombre</label>
+                            <label><input type="radio" name="sexo" value="Prefiero no decir"> Prefiero no decirlo</label>
+                        </div>
+                    </div>
+
+                    <!--PREGUNTA 6-->
+                    <div class="question">
+                        <label for="ocupacion">Ocupación:</label>
+                        <select name="ocupacion">
+                            <option value="Hogar">Encargado(a) del hogar</option>
+                            <option value="Estudiante">Estudiante</option>
+                            <option value="Empleado(a)">Empleado(a)</option>
+                            <option value="Desempleado(a)">Desempleado(a)</option>
+                            <option value="Autoempleo">Autoempleo</option>
+                            <option value="Profesionista">Profesionista</option>
+                            <option value="Jubilado(a)">Jubilado(a)</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <!--PREGUNTA 7-->
+                    <div class="question">
+                        <label for="nivel_estudios">¿Cuál es su nivel de estudios?</label>
+                        <select name="nivel_estudios">
+                            <option value="Ninguno">No estudié</option>
+                            <option value="Primaria">Primaria</option>
+                            <option value="Secundaria">Secundaria</option>
+                            <option value="Preparatoria">Preparatoria</option>
+                            <option value="Licenciatura">Licenciatura</option>
+                            <option value="Maestria">Maestría</option>
+                            <option value="Doctorado">Doctorado</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <!--PREGUNTA 8-->
+                    <div class="question">
+                        <label for="email">Número Telefónico</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+
+                    <!--PREGUNTA 9-->
+                    <div class="question">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <!--PREGUNTA 10-->
+                    <div class="question">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" id="pass">
+                    </div>
+
+                    <!--PREGUNTA 11-->
+                    <div class="question">
+                        <label for="confirPass">Confirmar Contraseña</label>
+                        <input type="password" name="confirPass" id="confirPass">
+                    </div>
+
+                    <div class="btn-container">
+                        <p class="aceptar">Al crear una cuenta estas de acuerdo con nuestro <a
+                                href="./avisoPrivacidad.html"><br> AVISO DE PRIVACIDAD</a> y <a
+                                href="./consentimientoInformado.html">CONSENTIMIENTO INFORMADO</a></p>
+                        <input name="avisoConsentimiento" id="avisoConsentimiento" type="checkbox">
+                    </div>
+
+                    <div class="btn-container">
+                        <input type="submit" class="btn-next_prev" name="signup_submit" id="signUp">
+                    </div>
+
+                    <div class="question">
+                        <p>¡Ya tengo cuenta!</p>
+                        <a href="./login.html" id="irALogin">Iniciar Sesión</a>
+                    </div>
+
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedorFooter">
+            <div><div><img src="./img/LogoSerenaMente.png" width="206px" height="190px" class="logoFotter" alt="LogoSerenaMente"></div></div>
+            <div><a
+                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+            </div>
+            <div>
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img src="./img/facebook.svg"
+                                class="redeSociales" alt="Facebook_Serene" /></a></li>
+                    <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img
+                                src="./img/instagram.svg" class="redeSociales" alt="Instagram_Serene" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div><a href="./avisoPrivacidad.html">AVISO DE PRIVACIDAD</a></div>
+        </div>
+
+        <div class="rectanguloAzul">
+            <p>Investigación realizada gracias al Programa UNAM-PAPIIT TA300223 / &copyCopyright 2023 SERENAMENTE /
+                Proyecto
+                PAPIIT</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./scripts/conexionFirestore.js"></script>
+
+</body>
+
+</html>

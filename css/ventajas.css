@@ -1,0 +1,16 @@
+.contenedorAzul{
+    background-color: #2DAAA4;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contenedorTexto :where(p){
+    font-size: 25px;
+    text-align: justify;
+    padding: 16px;
+}
+

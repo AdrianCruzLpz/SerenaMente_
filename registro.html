@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SerenaMente</title>
+    
+    <!--Icono de la aplicacion-->
+    <link rel="icon" type="image/x-icon" href="./img/LogoSerenaMente.png">
+    
+    <!--Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    
+    <!--Iconos de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Estilos personales-->
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-slider.css">
+    <link rel="stylesheet" href="./css/style-quienesSomos.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-registro.css">
+    
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="rectanguloAzul">
+            <!-- <img src="./img/LogoSerenaMente.png" class="logoSerenaMente-nav"> -->
+        </div>
+
+        <div class="contenedor-header">
+
+            <div class="contenedor-izquierda-logo">
+                <figure>
+                    <img src="./img/LogoSerenaMente.png" class="logoSerenaMente">
+                </figure>
+            </div>
+
+            <div class="contenedor-derecha">
+                <div class="contenedor-derecha-fila-redes">
+                    <div class="contenedor-derecha-columna">
+                        <ul>
+                            <li><img src="./img/envelope-regular.svg" class="redeSociales"></li>
+                            <li><a
+                                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contenedor-derecha-columna">
+                        <p>SÍGUENOS</p>
+                        <ul>
+                            <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img
+                                        src="./img/facebook.svg" class="redeSociales" alt="Facebook_Serene" /></a></li>
+                            <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA=="
+                                    target="_blank"><img src="./img/instagram.svg" class="redeSociales"
+                                        alt="Instagram_Serene" /></a></li>
+                        </ul>
+                    </div>
+                    <!--<div class="contenedor-derecha-columna"><a href="#">INICIAR SESIÓN / REGISTRO</a></div>-->
+                </div>
+                <div class="contenedor-derecha-fila">
+                    <div class="contenedor-derecha-columna">
+                        <nav class="menu" id="menu">
+                            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                            <ul class="menu-lista">
+                                <li><a href="./index.html">INICIO</a></li>
+                                <li><a href="./quienesSomos.html">¿QUIÉNES SOMOS?</a></li>
+                                <li><a href="./ventajas.html">VENTAJAS</a></li>
+                                <li><a href="./contenidos.html">CONTENIDOS</a></li>
+                                <li><a href="./preguntasFrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="rectanguloAmarillo">
+            <h1>REGISTRO</h1>
+        </div>
+        <form action="https://formsubmit.co/cruzadrian342@gmail.com" method="POST" id="form-registro">
+
+                    
+                    <input name="nombre" id="nombre" type="text" placeholder="NOMBRE" required>
+
+                    
+                    <input name="apellido" id="apellido" type="text" placeholder="APELLIDOS" required>
+                    
+                    
+                    <select name="sexo" id="sexo"> 
+                        <option value=""disabled selected hidden> SEXO </option>
+                        <option value="hombre"> Hombre </option>
+                        <option value="mujer"> Mujer </option>
+                        <option value="prefieroNoDedirlo">Prefiero no decirlo</option>
+                    </select>
+                        
+                    
+                    <input name="edad" id="edad" type="number" placeholder="EDAD" required>
+                        
+                    
+                    <select name="estado-civil" id="estado-civil"> 
+                        <option value="" disabled selected hidden> ESTADO CIVIL </option>
+                        <option value="Soltero(a)"> Soltero(a) </option>
+                        <option value="Casado(a)"> Casado(a) </option>
+                        <option value="Divorciado(a)"> Divorciado(a) </option>
+                        <option value=""> Separado(a) </option>
+                        <option value=""> Viudo(a) </option>
+                        <option value=""> Otro </option> 
+                    </select>
+                        
+                    
+                    <select name="ocupacion" id="ocupacion"> 
+                            <option value="" disabled selected hidden> OCUPACIÓN </option>
+                            <option value=""> Encargado(a) del hogar </option>
+                            <option value=""> Estudiante </option>
+                            <option value=""> Empleado(a) </option>
+                            <option value=""> Desempleado(a) </option>
+                            <option value=""> Autoempleo </option>
+                            <option value=""> Profesionista </option>
+                            <option value=""> Jubilado(a) </option>
+                            <option value=""> Otro </option>
+                    </select>
+                        
+                    
+                    <select name="nivel-estudios" id="nivel-estudios">
+                            <option value="" disabled selected hidden> LUGAR DE RESIDENCIA </option>
+                            <option value="Aguascalientes"> Aguascalientes </option>
+                            <option value="Baja California"> Baja California </option>
+                            <option value="Baja California Sur"> Baja California Sur </option>
+                            <option value="Campeche"> Campeche </option>
+                            <option value="Chiapas"> Chiapas </option>
+                            <option value="Chihuahua"> Chihuahua </option>
+                            <option value="CDMX"> Ciudad de México </option>
+                            <option value="Coahuila"> Coahuila </option>
+                            <option value="Colima"> Colima </option>
+                            <option value="Durango"> Durango </option>
+                            <option value="Estado de México">Estado de México</option>
+                            <option value="Guanajuato">Guanajuato</option>
+                            <option value="Guerrero">Guerrero</option>
+                            <option value="Hidalgo">Hidalgo</option>
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Michoacán">Michoacán</option>
+                            <option value="Morelos">Morelos</option>
+                            <option value="Nayarit">Nayarit</option>
+                            <option value="Nuevo León">Nuevo León</option>
+                            <option value="Oaxaca">Oaxaca</option>
+                            <option value="Puebla">Puebla</option>
+                            <option value="Querétaro">Querétaro</option>
+                            <option value="Quintana Roo">Quintana Roo</option>
+                            <option value="San Luis Potosí">San Luis Potosí</option>
+                            <option value="Sinaloa">Sinaloa</option>
+                            <option value="Sonora">Sonora</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Tamaulipas">Tamaulipas</option>
+                            <option value="Tlaxcala">Tlaxcala</option>
+                            <option value="Veracruz">Veracruz</option>
+                            <option value="Yucatán">Yucatán</option>
+                            <option value="Zacatecas">Zacatecas</option>
+                            <option value="Extranjero">Extranjero</option>
+                    </select>
+
+                
+                    <select name="tratamiento" id="tratamiento"> 
+                        <option value="" disabled selected hidden> ¿ACTUALMENTE ESTÁ EN TRATAMIENTO PSICOLÓGICO O PSIQUIÁTRICO?</option>
+                        <option value="si"> Si </option>
+                        <option value="no"> No </option>
+                    </select>
+
+                    
+                    <select name="tratamiento-medicamento" id="tratamiento-medicamento">
+                        <option value="" disabled selected hidden> EN CASO DE HABER RESPONDIDO SI, ¿TOMA ALGÚN MEDICAMENTO ? </option>
+                        <option value="si"> Si </option>
+                        <option value="no"> No </option>
+                        <option value="no-aplica"> No aplica </option>
+                    </select>
+
+                        
+                        <input name="tratamiento-medicamento" id="tratamiento-medicamento" type="text" placeholder="¿CUÁL?">
+
+                        <label for="terminos-condiciones" id="terminos">Al crear una cuenta estas de acuerdo con nuestro <a href="">AVISO DE PRIVACIDAD</a> y <a href="">TÉRMINOS Y CONDICIONES</a></label>
+                        <input name="terminos-condiciones" id="terminos-condiciones" type="checkbox" >
+                
+                        <button type="submit" onclick="window.modal14.showModal();" class="ov-btn-slide-top" id="boton-registrarse"> REGISTRARSE </button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contenedorFooter">
+            <div><img src="./img/LogoSerenaMente.png" width="206px" height="190px" class="logoFotter"></div>
+            <div><a
+                    href="mailto:serenamente@iztacala.unam.mx?subject=Asunto del correo">serenamente@iztacala.unam.mx</a>
+            </div>
+            <div>
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://web.facebook.com/SerenaMenteUNAM" target="_blank"><img src="./img/facebook.svg"
+                                class="redeSociales" alt="Facebook_Serene" /></a></li>
+                    <li><a href="https://instagram.com/serenamente_app?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img
+                                src="./img/instagram.svg" class="redeSociales" alt="Instagram_Serene" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div><a href="#">AVISO DE PRIVACIDAD</a></div>
+        </div>
+
+        <div class="rectanguloAzul">
+            <p>Investigación realizada gracias al Programa UNAM-PAPIIT TA300223 / &copyCopyright 2023 SERENAMENTE /
+                Proyecto
+                PAPIIT</p>
+        </div>
+    </footer>
+
+    <script src="script-slider.js"></script>
+
+</body>
+
+</html>

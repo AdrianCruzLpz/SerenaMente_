@@ -1,0 +1,114 @@
+{
+    "BAI": [
+        "Hormigueo o entumecimiento",
+        "Sensación de calor",
+        "Temblor en las piernas",
+        "Incapacidad de relajarse",
+        "Miedo a que suceda lo peor",
+        "Mareo o aturdimiento",
+        "Palpitaciones o taquicardia",
+        "Sensación de inestabilidad e inseguridad física",
+        "Terrores",
+        "Nerviosismo",
+        "Sensación de ahogo",
+        "Temblores de manos",
+        "Temblor generalizado o estremecimiento",
+        "Miedo a perder el control",
+        "Dificultad para respirar",
+        "Miedo a morirse",
+        "Sobresaltos",
+        "Molestias digestivas o abdominales",
+        "Palidez",
+        "Rubor facial"
+    ],
+
+    "BDI": [
+        "Tristeza",
+        "Pesimismo",
+        "Fracasos del pasado ",
+        "Pérdida del placer ",
+        "Sentimientos de culpa",
+        "Sentimientos de castigo",
+        "Desagrado con uno mismo",
+        "Auto-crítica",
+        "Ideación o deseos suicidas",
+        "Llanto",
+        "Inquietud",
+        "Pérdida del interés",
+        "Indecisión",
+        "Inutilidad",
+        "Pérdida de energía",
+        "Cambios en los patrones de sueño",
+        "Irritabilidad",
+        "Cambios en hábitos alimentarios",
+        "Dificultad para concentrarse",
+        "Cansancio o fatiga",
+        "Pérdida de interés en el sexo"
+    ],
+
+    "PSS": [
+        "¿Con qué frecuencia has estado afectado(a) por algo que ha ocurrido inesperadamente?",
+        "¿Con qué frecuencia te has sentido incapaz de controlar las cosas importantes de tu vida?",
+        "¿Con qué frecuencia te has sentido nervioso(a) o estresado(a) (lleno de tensión)?",
+        "¿Con qué frecuencia has manejado con éxito los pequeños problemas irritantes de la vida?",
+        "¿Con qué frecuencia has sentido que has afrontado efectivamente los cambios importantes que han estado ocurriendo en tu vida?",
+        "¿Con qué frecuencia has estado seguro(a) sobre tu capacidad de manejar tus problemas personales?",
+        "¿Con qué frecuencia has sentido que las cosas te van bien?",
+        "¿Con qué frecuencia has sentido que no podías afrontar todas las cosas que tenías que hacer?",
+        "¿Con qué frecuencia has podido controlar las dificultades de tu vida?",
+        "¿Con qué frecuencia has sentido que tienes el control de todo?",
+        "¿Con qué frecuencia has estado enfadado(a) porque las cosas que te han ocurrido estaban fuera de tu control?",
+        "¿Con qué frecuencia has pensado sobre las cosas que no has terminado (pendientes de hacer)?",
+        "¿Con qué frecuencia has podido controlar la forma de pasar el tiempo (organizar)?",
+        "¿Con qué frecuencia has sentido que las dificultades se acumulan tanto que no puedes superarlas?"
+    ],
+
+    "MINI": [
+        "¿Ha pensado que sería mejor morirse o ha deseado estar muerto(a)?",
+        "¿Ha querido hacerse daño?",
+        "¿Ha pensado en el suicidio?",
+        "¿Ha planeado suicidarse?",
+        "¿Ha intentado suicidarse?",
+        "¿Alguna vez ha intentado suicidarse?"
+    ],
+
+    "WBI": [
+        "¿Me he sentido alegre y de buen ánimo?",
+        "¿Me he sentido tranquilo(a) y relajado(a)? ",
+        "¿Me he sentido activo(a) y con energía?",
+        "¿Me he levantado sintiéndome bien y descansado(a)?",
+        "¿Mi vida diaria ha tenido cosas interesantes para mí?"
+    ],
+
+    "ICSP": [
+        "Durante el último mes, ¿cuál ha sido, usualmente, su hora de acostarse?",
+        "Durante el último mes, ¿cuánto tiempo ha tardado en dormirse en las noches del último mes?",
+        "Durante el último mes, ¿a que hora se ha estado levantando por la mañana?",
+        "¿Cuántas horas calcula que habrá dormido verdaderamente cada noche durante el último mes?",
+        "No poder conciliar el sueño en la primera media hora:",
+        "Despertarse durante la noche o de madrugada:",
+        "Tener que levantarse para ir al sanitario:",
+        "No poder respirar bien:",
+        "Toser o roncar ruidosamente:",
+        "Sentir frío:",
+        "Sentir demasiado calor:",
+        "Tener pesadillas o “malos sueños”:",
+        "Sufrir dolores:",
+        "Otras razones (por favor descríbalas a continuación):",
+        "Durante el último mes ¿cómo valoraría, en conjunto, la calidad de su dormir?",
+        "Durante el último mes, ¿cuántas veces habrá tomado medicinas (por su cuenta o recetadas por el médico) para dormir?",
+        "Durante el último mes, ¿cuántas veces ha sentido somnolencia mientras conducía, comía o desarrollaba alguna otra actividad?",
+        "Durante el último mes, ¿ha representado para usted mucho problema el “tener ánimos” para realizar alguna de las actividades detalladas en la pregunta anterior?"
+    ],
+
+    "Sociodemografico": [
+        "Sexo",
+        "Edad",
+        "Estado civil:",
+        "¿Cuál es su nivel de estudios?",
+        "Ocupación:",
+        "Lugar de residencia",
+        "¿Actualmente está en tratamiento psicológico o psiquiátrico?:",
+        "En caso de haber respondido Sí, ¿toma algún medicamento como parte de este tratamiento?"
+    ]
+}

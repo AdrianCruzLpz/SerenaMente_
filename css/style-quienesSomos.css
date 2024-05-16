@@ -1,0 +1,332 @@
+.rectanguloAmarillo {
+    background-color: #FFC55C;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectanguloAmarillo h1{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.contenedorLetrasLogo{
+    width: 50%;
+    margin: 56px auto 32px;
+}
+
+.letrasLogo{
+    width: 197px;
+    height: 50px;
+    /*margin: 72px 96px;*/
+}
+
+article p{
+    width: 75%;
+    margin: 0 auto 56px;
+    color: #737373;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+section h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: #2DAAA4;
+    margin: 96px;
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr) 1fr;
+    max-width: 60%;
+    margin: 49px auto;
+}
+
+.celda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.celda p {
+    padding: 8px;
+    font-size: 18px;
+    color: #737373;
+}
+
+.contenedor-grid img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.contenedor-nombre{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+section button{
+    font-weight: bold;
+    font-size: 25px;
+    color: #2DAAA4;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+
+.contenedorContacto{
+    display: flex;
+    width: 100%;
+    margin: 72px auto;
+}
+
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.formulario ul{
+    list-style: none;
+    padding: 0;
+}
+
+.formulario{
+    flex: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    color: #2DAAA4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formulario li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.formulario label{
+    min-width: 150px;
+    margin-right: 10px;
+}
+
+.input{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    min-width: 350px;
+}
+
+.formulario h3{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.boton{
+    max-width: 150px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2DAAA4;
+    border-radius: 11px;
+    border: 2px solid #2DAAA4;
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+.comentario{
+    flex: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFC55C;
+    color: #FFF;
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px 60px;
+}
+
+.comentario h3{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+    .rectanguloAmarillo h1{
+        font-size: 46px;
+    }
+    
+    article p{
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    section h1{
+        font-size: 35px;
+        margin: 56px;
+        
+    }
+
+    .contenedor-grid{
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 60%;
+        margin: 20px auto;
+        max-width: 90%; 
+        margin: 10px auto;
+    }
+
+    .celda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .comentario{
+        display: none;
+    }
+    .comentario-cel{
+    flex: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFC55C;
+    color: #FFF;
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px 60px;
+    }
+    
+    .contenedorContacto{
+        flex-direction: column;
+    }
+
+    .formulario h3{
+        font-size: 25px;
+    }
+
+    .formulario label{
+        font-size: 18px;
+    }
+
+    .input{
+        min-width: 30px;
+    }
+
+    .contenedor-nombre {
+        width: 150px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .comentario-cel{
+        display: none;
+    }
+}
+
+
+.ov-btn-slide-top {
+    background: #fff; /* color de fondo */
+    color: #2DAAA4;; /* color de fuente */
+    border: 2px solid #2DAAA4;; /* tamaño y color de borde */
+    padding: 8px 10px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Montserrat";
+  }
+
+  .ov-btn-slide-top:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  
+  .ov-btn-slide-top::after {
+    content: "";
+    background: #2DAAA4;; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-top:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+dialog{
+    width: 70%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.99); /* Color de fondo con transparencia */
+    border-radius: 10px;
+}
+
+h2{
+    color: #737373;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .formulario label{
+        min-width: 50px;
+        margin-right: 10px;
+    }
+
+    .formulario{
+        padding: 5px;
+    }
+
+    .displaynone{
+        display: none;
+    }
+
+    section p{
+        padding: 20px;
+    }
+
+    .celda{
+        padding: 40px 0;
+    }
+}
+
